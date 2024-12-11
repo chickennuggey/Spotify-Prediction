@@ -28,8 +28,14 @@ K-means clustering was used in the data in order to explore underlying patterns 
 8. Explain how your project attempted to use a neural network on the data and the results of
 that attempt.
 
-Two neural networks were used, one to predict continuous energy values and one to classify energy levels as low or high. The regression neural network used acousticness and loudness as inputs and obtained a loss of 0.04
+Two neural networks were used, one to predict continuous energy values and one to classify energy levels as low or high. The regression neural network used acousticness and loudness as inputs and obtained a relatively low MSE loss of 0.025 for both the validation and testing data after 100 epochs. There was no drastic gap between the training and validation loss. The classification neural network used loudness, acousticness, liveness, valence, key, mode and time_signature as inputs and obtained a relatively high classification accuracy of 82% for both the training and validation data and a binary cross entropy loss around 0.38 for both as well. This shows that the model is quite good at predicting and classifying the energy, but there are simpler models that can achieve the same classification accuracy and are much simpler (logistic regression, knn). 
 
 
 10. Give examples of hyperparameter tuning that you applied in preparing your project and how
 you chose the best parameters for models.
+
+For the lasso and ridge regularization, we used 5-fold cross-validation in order to find the best alpha value of 0.00019 for lasso and 10 for ridge. 
+For KNN, we tested multiple k-neighbors and selected the value that gave the highest cross-validated accuracy, which was 82.62% from k=1.  
+For K-Means Clustering, we determined our best k-value by calculaing the WSS of various k-values within the range (1,30) and selected the value at the elbow of the plot. This would ensure the lowest complexity and lowest error and therefore, prevening overfitting. From the elbow plot, we selected a k-value of 6.
+For the NN, we used learning rate scheduler in order to test various learning rates at different stages of training. This allows us to prevent overshooting from a large learning rate and prevent slow convergence from a small learning rate. Ideally, we want to select the learning rate at which the loss is decreasing the fastest and before it starts to increase. 
+
