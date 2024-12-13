@@ -1,5 +1,5 @@
 1. The dataset our team used was the **Spotify Tracks Dataset**: maharshipandya/spotify-tracks-dataset
 2. The problem our team decided to address was predicting **energy** based on acousticness, loudness, instrumentalness, and other factors. We focused on features that most correlated with energy to analyze the relationships between the features and predict energy value based on these relationships between features. 
-3. the key methodology that worked to address the problem with explanations as to why
-4. results including cross-validation used and evaluation metrics and conclusions such as why you chose the key method and its limitations
+3. **TODO** the key methodology that worked to address the problem with explanations as to why
+4. **TODO** results including cross-validation used and evaluation metrics and conclusions such as why you chose the key method and its limitations
 5. To use the code from our project on the dataset, you can run this python notebook to see our analyses, plots, and results for our applications of linear regression, logistic regression, KNN, K-means clustering, and a neural network. The last module can be used to predict energy level for new spotify track data samples.
