@@ -13,5 +13,5 @@ By: Cynthia Nguyen, Srishti Ganu, Magge Wang, Shawn Mosharaf, Briana Nguyen
   * APPENDIX.md: Discussion on the methods applied in our project
   * main.ipynb: Finalized code for the project
   * appendix.ipynb: Additional code that was not tailored towards the final goal of the project
-  * CSM148_Group_Project.ipynb: collective code from our project check-ins
-  * csv folder: contains additional datasets we have used in our project check-ins
+  * CSM148_Group_Project.ipynb: Collective code from our project check-ins
+  * csv folder: Folder containing additional datasets we have used in our project check-ins
