@@ -1,4 +1,4 @@
-# Spotify Prediction Final Project
+# Spotify Prediction
 By: Cynthia Nguyen, Srishti Ganu, Magge Wang, Shawn Mosharaf, Briana Nguyen
 
 ## Main Report
