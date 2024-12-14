@@ -14,7 +14,7 @@ In this project, energy was predicted in two ways:
 
 #### III. Methodology
 Data Preprocessing  | Exploratory Data Analysis | Data Modeling | Compare Results 
-| :---------- | :--------- | :------------- | :----------- 
+| :---------- | :-------------- | :------------- | :----------- 
 Removed any unnecessary columns and handled missing data | Analyzed correlation matrix (for regression) and density and boxplots (for classification) | Utilized multiple data modeling technique, including Linear Regression, Logistic Regression, KNN, K-Means Clustering and Neural Networks | Selected our best model based on complexity and model performance 
 
 After trying many different predictive models, we chose logistic regression as our key methodlogy because we wanted to identify if the energy level is categorized as low or high based on a variety of variables.  Doing logistic regression allows us to catgorized songs based on their prediction score, and adjusting the threshold to fit what we would want to classify as high or low energy songs. Therefore if we prefer would want to see more songs categorized as high level, we would move the threshold to that preference of classification. Logistic regression allows for a simple, fast and efficient model to classify high and low energy songs.
