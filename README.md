@@ -1,6 +1,7 @@
 # Spotify Prediction
 By: Cynthia Nguyen, Srishti Ganu, Magge Wang, Shawn Mosharaf, Briana Nguyen
 
+## Main
 1. The dataset our team used was the **Spotify Tracks Dataset**: maharshipandya/spotify-tracks-dataset
 
 2. The problem our team decided to address was predicting **energy** based on acousticness, loudness, instrumentalness, and other factors. We focused on features that most correlated with energy to analyze the relationships between the features and predict energy value based on these relationships between features. 
