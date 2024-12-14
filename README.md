@@ -4,12 +4,15 @@ By: Cynthia Nguyen, Srishti Ganu, Magge Wang, Shawn Mosharaf, Briana Nguyen
 ## Main Report
 
 #### I. Dataset 
-The dataset our team used was the **Spotify Tracks Dataset**: maharshipandya/spotify-tracks-dataset
+The [dataset](https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset?library=pandas)) our team used was the **Spotify Tracks Dataset**: maharshipandya/spotify-tracks-dataset
 
 #### II. Goal 
 The problem our team decided to address was predicting **energy** based on acousticness, loudness, instrumentalness, and other factors. Energy was predicted in two ways: (1) on a continuous scale that is the same as the original data and (2) categorized as high or low energy. We focused on features that most correlated with energy to analyze the relationships between the features and predict energy value based on these relationships between features. This was determined through the use of correlation matrices, density plots and boxplots.
 
-#### III. Key Methodology
+#### III. Methodology
+fefe | fefafeas | faefaesfes
+-----
+
 In order to address this problem, we chose logistic regression as our key methodlogy because we wanted to identify if the energy level is categorized as low or high based on a variety of variables.  Doing logistic regression allows us to catgorized songs based on their prediction score, and adjusting the threshold to fit what we would want to classify as high or low energy songs.  Therefore if we prefer would want to see more songs categorized as high level, we would move the threshold to that preference of classification. Logistic regression allows for a simple, fast and efficient model to classify high and low energy songs.
 
 #### IV.  Results
