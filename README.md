@@ -18,11 +18,9 @@ We were able to get a prediction accuracy of 82.60%, as in a prediction error of
 #### V. Code Usage
 To use the code from our project on the dataset, you can run our python notebook to see our analyses, plots, and results for our applications of linear regression, logistic regression, KNN, K-means clustering, and a neural network. The last module can be used to predict energy level for new spotify track data samples. All additional code and data can be found in our github repository (https://github.com/Srishtiganu/m148_group/tree/main), which includes the following files:
   * README.md: Final Report
-  * APPENDIX.md: Discussion on the methods applied in our project
-  * main.ipynb: Finalized code for the project
+  * mainCode.ipynb: Finalized code for the project
   * appendix.ipynb: Additional code that was not tailored towards the final goal of the project
-  * CSM148_Group_Project.ipynb: Collective code from our project check-ins
-  * csv folder: Folder containing additional datasets we have used in our project check-ins
+  * csv folder: Folder containing split training and testing datasets we have used in our project check-ins
 
 ## Appendix
 
